@@ -372,8 +372,8 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 
-button.sendMessageButton {
-  background-color: #d73925;
+button.btn-primary {
+  color: #28d725;
 }
 
 footer {
@@ -428,7 +428,7 @@ footer.copyright {
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #fdcc52;
+  border-color: white;
   background-color: #fdcc52;
 }
 
@@ -442,4 +442,40 @@ footer.copyright {
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+#message {
+  height: 96px;
+}
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.team-member p {
+  margin-top: 0;
+}
+
+.teamrow {
+  width: 100%;
+}
+
+.col-sm-2 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
 }
