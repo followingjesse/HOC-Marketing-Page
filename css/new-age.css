@@ -235,7 +235,7 @@ section.download .badges .badge-link img {
 }
 
 section.platform .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 section.platform .section-heading h2 {
@@ -252,6 +252,14 @@ section.platform .feature-item {
   margin: 0 auto;
 }
 
+section.platform .container-fluid {
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 section.platform .device-container {
   margin-bottom: 100px;
 }
@@ -263,13 +271,14 @@ section.platform .device-container {
 }
 
 section.platform .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 0px;
   text-align: center;
 }
 
 section.platform .feature-item h3 {
   font-size: 30px;
+  padding-bottom: 10px;
 }
 
 section.platform .feature-item i {
